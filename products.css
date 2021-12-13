@@ -8,6 +8,33 @@ body {
     background-color: whitesmoke;
 }
 
+/* nav css */
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: burlywood;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.hover:hover {
+    opacity: 50%;
+}
+
+/* nav css end*/
+
 h3 {
     text-align: center;
     color: burlywood;
